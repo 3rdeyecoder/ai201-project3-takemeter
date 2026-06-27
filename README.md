@@ -48,6 +48,19 @@ Metrics used:
 - Confusion Matrix
 
 
+Results from the current Colab run:
+
+- Baseline accuracy: 0.9333
+- Fine-tuned accuracy: 0.7333
+- Improvement: -0.20 (fine-tuned model underperformed vs baseline)
+- Test set size: 30
+
+Results are saved in:
+
+- `evaluation_results.json`
+- `confusion_matrix.png`
+
+
 Results (to be produced by the Colab notebook) are expected in:
 
 - `evaluation_results.json` (baseline vs fine-tuned metrics and per-class numbers)
