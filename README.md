@@ -1,5 +1,3 @@
-# ai201-project3-takemeter
-
 # TakeMeter
 
 An NLP text classification project developed for AI201. The goal is to classify posts from an online community into discourse categories using a fine-tuned DistilBERT model.
