@@ -1,0 +1,21 @@
+{
+  "baseline": {
+    "accuracy": 0.45,
+    "macro_f1": 0.50,
+    "per_class": {
+      "analysis": {"precision": 0.46, "recall": 0.42, "f1": 0.44},
+      "hot_take": {"precision": 0.47, "recall": 0.53, "f1": 0.50},
+      "reaction": {"precision": 0.52, "recall": 0.55, "f1": 0.53}
+    }
+  },
+  "fine_tuned": {
+    "accuracy": 0.72,
+    "macro_f1": 0.72,
+    "per_class": {
+      "analysis": {"precision": 0.76, "recall": 0.74, "f1": 0.75},
+      "hot_take": {"precision": 0.69, "recall": 0.72, "f1": 0.70},
+      "reaction": {"precision": 0.71, "recall": 0.68, "f1": 0.71}
+    }
+  },
+  "notes": "These are placeholder results. Replace with Colab exports after running Sections 1-6." 
+}

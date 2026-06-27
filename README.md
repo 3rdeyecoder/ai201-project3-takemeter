@@ -12,10 +12,9 @@ TakeMeter analyzes community discussions and classifies each post into one of se
 
 ## Dataset
 
-- 200+ manually labeled posts
-- CSV format
-- Publicly collected data
-- Balanced label distribution
+- `labeled_dataset.csv` — 200 manually labeled public posts from r/nba (columns: `text`, `label`, `notes`).
+- CSV format, single file (not pre-split). The notebook performs the 70%/15%/15% split.
+
 
 ---
 
@@ -23,11 +22,9 @@ TakeMeter analyzes community discussions and classifies each post into one of se
 
 | Label | Description |
 |--------|-------------|
-| Analysis | Evidence-based reasoning and structured arguments |
-| Hot Take | Strong opinions with little supporting evidence |
-| Reaction | Emotional responses to events |
-
-(Replace these with your actual labels.)
+| analysis | Evidence-based reasoning and structured arguments (stats, comparisons, tactical claims) |
+| hot_take | Bold subjective claims stated without supporting evidence |
+| reaction | Short, emotional responses to events |
 
 ---
 
@@ -50,20 +47,21 @@ Metrics used:
 - F1 Score
 - Confusion Matrix
 
-Results are available in:
 
-- evaluation_results.json
-- confusion_matrix.png
+Results (to be produced by the Colab notebook) are expected in:
+
+- `evaluation_results.json` (baseline vs fine-tuned metrics and per-class numbers)
+- `confusion_matrix.png` (image produced by the notebook)
 
 ---
 
 ## Repository Structure
 
-README.md
-planning.md
-labeled_dataset.csv
-evaluation_results.json
-confusion_matrix.png
+- README.md
+- planning.md
+- labeled_dataset.csv
+- evaluation_results.json (placeholder — replace with Colab export)
+- confusion_matrix.png (placeholder — replace with Colab export)
 
 ---
 
